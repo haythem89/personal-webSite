@@ -1,6 +1,6 @@
 import './header.css';
 import imgProfile from './imgHayem.PNG'
-import {Link, NavLink} from 'react-router-dom'
+import { NavLink} from 'react-router-dom'
 
 function Header() {
     return (
@@ -13,9 +13,10 @@ function Header() {
             <nav className="navbar">
                 <NavLink to="/home">home</NavLink>
                 <NavLink to="/about">about</NavLink>
-                <a href="#services">services</a>
-                <a href="#portfolio">portfolio</a>
-                <a href="#contact">contact</a>
+                <NavLink to="/education">education</NavLink>
+                <NavLink to="/portfolio">portfolio</NavLink>
+                <NavLink to="/contact">contact</NavLink>
+               
             </nav>
         </header>
     );

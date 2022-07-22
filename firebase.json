@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/webSite-Haytem",
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",
