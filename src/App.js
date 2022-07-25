@@ -7,7 +7,7 @@ import About from './components/about/about';
 import Education from './components/education/education';
 import Portfolio from './components/portfolio/portfolio';
 import Contact from './components/contact/contact';
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes,Redirect } from 'react-router-dom'
 
 class App extends Component {
   render() {
@@ -22,7 +22,7 @@ class App extends Component {
             <Route path="/education" element={<Education />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
-
+           
           </Routes>
         </div>
       </BrowserRouter>
