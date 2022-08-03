@@ -11,7 +11,7 @@ class Home extends Component {
         doc.addImage(cv1, 'PNG', 65, 20, 400, 400);
         doc.addPage();
         doc.addImage(cv2, 'PNG', 65, 20, 400, 400);
-        doc.save();
+        doc.save("cv-ismail");
     }
 
     render() {
