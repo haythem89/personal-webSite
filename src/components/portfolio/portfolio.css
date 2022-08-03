@@ -32,7 +32,7 @@
 
 .portfolio .box-container .box:hover .content{
     transform: scale(1);
-    background: var(--green)
+    background: var(--primary)
 }
 
 .portfolio .box-container .box .content h3{

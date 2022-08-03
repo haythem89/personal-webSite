@@ -6,12 +6,12 @@ import { Component } from 'react';
 
 class Home extends Component {
 
-    generate = () => {
+    generatePDF = () => {
         var doc = new jsPDF('landscape', 'px', 'a4', 'false');
-        doc.addImage(cv1, 'PNG', 65, 20, 400, 400);
+        doc.addImage(cv1, 'PNG', 50, 10, 515, 430, '', 'SLOW');
         doc.addPage();
-        doc.addImage(cv2, 'PNG', 65, 20, 400, 400);
-        doc.save("cv-ismail");
+        doc.addImage(cv2, 'PNG', 50, 10, 515, 430, '', 'SLOW');
+        doc.save("cv-Haytem-Ismail");
     }
 
     render() {
@@ -21,7 +21,7 @@ class Home extends Component {
                 <div className="content">
                     <h3>Haytem ismail</h3>
                     <p>i am a front-end developer</p>
-                    <button className="btn" onClick={this.generate}>download CV</button>
+                    <button className="btn" onClick={this.generatePDF}>download CV</button>
                 </div>
 
                 <div className="share">

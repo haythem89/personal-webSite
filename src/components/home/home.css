@@ -15,7 +15,7 @@
 
 .home .content p{
     font-size: 2rem;
-    color:var(--green);
+    color:var(--primary);
     padding-bottom: .5rem;
 }
 
@@ -40,5 +40,5 @@
 
 .home .share a:hover{
     box-shadow: var(--box-shadow-inset);
-    color:var(--green);
+    color:var(--primary);
 }

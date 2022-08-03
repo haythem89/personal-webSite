@@ -7,7 +7,7 @@
 }
 
 .heading span{
-    color:var(--green);
+    color:var(--primary);
     text-transform: uppercase;
 }
 
@@ -57,7 +57,7 @@
 }
 
 .about .row .content h3 span{
-    color:var(--green);
+    color:var(--primary);
 }
 
 .about .row .content p{
@@ -95,7 +95,7 @@
 .about .row .progress .bar span{
     display: block;
     height: 100%;
-    background: var(--green);
+    background: var(--primary);
     border-radius: 5rem;
 }
 
